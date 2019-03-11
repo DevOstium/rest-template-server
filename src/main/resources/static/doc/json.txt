@@ -1,0 +1,65 @@
+
+Usando Postman
+Para inserir um usuario:
+http://localhost:8080/servidor-rest/usuarios
+{
+    "nome"  : "Fera JAVA",
+    "sobrenome": "Java Java",
+    "email": "java@java",
+    "senha": "java"
+}
+
+
+
+Para inserir um autor
+{
+
+
+    "nome" : "Lima",
+ 
+    "nascimento" : "01/01/2016",
+
+    "nacionalidade" : "Brasileiro"
+    
+
+}
+
+
+Para inserir um livro
+{
+  
+     "nome" : "Java dificil",
+  
+     "publicacao" : "01/01/2016",
+ 
+     "editora" : "Lira",
+   
+      "resumo" : "Livro de boa qualidade",
+ 
+      "autor" : {"id" : "1"}
+    
+    
+    
+
+}
+
+
+Para inserir um comentário
+http://localhost:8080/livros/1/comentarios
+
+{
+  
+     "comentario" : "O livro é muito bom"
+     
+  
+}
+
+
+"Basic YWxnYXdvcmtzOjEyMw=="
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+"http://localhost:8080/livros"
+
+
+
+
+
